@@ -82,21 +82,20 @@ export default function Navbar() {
         </NavigationMenuList>
       </NavigationMenu>
 
-      <div className="lg:flex items-center gap-6 hidden lg:block">
-        <a href="https://www.instagram.com/31_mqofbeauty?igsh=MTQxbjgyc3RxM2oyZA==" target="_blank" rel="noopener noreferrer">
+      <div className="lg:flex items-center gap-6 hidden">
+        <a href="https://www.instagram.com/lacasadioresteasilo/?api=postMessage%2F" target="_blank" rel="noopener noreferrer">
           <Instagram className="text-foreground"/>
         </a>
-        <a href="https://www.instagram.com/31_mqofbeauty?igsh=MTQxbjgyc3RxM2oyZA==" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/@lacasadioresteasilo?_t=ZN-8vCmNxnU8Uo&_r=1" target="_blank" rel="noopener noreferrer">
           <Image src={'/images/tiktok.svg'} width={20} height={20} alt="tiktok" />
         </a>
-        <Button className="material-button">
-          Contattaci
-          <Image src={'/images/whatsapp.svg'} width={20} height={20} alt="whatsapp" />
-        </Button>
+        <a href="https://wa.me/393381457299">
+          <Button className="material-button">
+            Contattaci
+            <Image src={'/images/whatsapp.svg'} width={20} height={20} alt="whatsapp" />
+          </Button>
+        </a>
       </div>
-
-
-
     </nav>
   );
 }

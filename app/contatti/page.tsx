@@ -1,20 +1,14 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import HeaderDetail from '../shared/ui/header-detail';
 
 const MapEmbed = dynamic(() => import('../shared/ui/map-embed'), { ssr: false });
 
 export default function ContactsPage() {
     return (
         <>
-            <header className="p-6 md:p-20 text-center">
-                <h1 className="text-2xl mb-4 md:text-5xl">
-                    <span className="text-accent font-bold">Contattaci</span>
-                </h1>
-                <p className="text-base md:text-2xl">
-                    Dove e come raggiungerci
-                </p>
-            </header>
+            <HeaderDetail title='Contattaci' subtitle='Dove e come raggiungerci'/>
             <main className='flex flex-col md:flex-row mb-6 md:mb-20 gap-12'>
                 <div className='flex-1'>
                     <MapEmbed />
@@ -26,12 +20,12 @@ export default function ContactsPage() {
                                 <h1 className='text-xl md:text-2xl mb-3'>Orari</h1>
                                 <p className='text-base'>
                                     <strong>
-                                        Lun - Ven: 09:30 - 18:00
+                                        Lun - Ven: 08:00 - 17:30
                                     </strong>
                                 </p>
                                 <p className='text-base'>
                                     <strong>
-                                        Sabato: 09:30 - 13:30
+                                        Sabato: 09:00 - 16:00
                                     </strong>
                                 </p>
                                 <p className='text-base'>
@@ -44,22 +38,22 @@ export default function ContactsPage() {
                                 <h1 className='text-xl md:text-2xl mb-3'>Indirizzo</h1>
                                 <a className='text-sm md:text-base' 
                                 href="https://maps.app.goo.gl/DGBQ4a3fWjwHBJXX6" target='_blank' rel='noopener'>
-                                    Via Cortivallo 3 , 6900 Lugano 
+                                    Via della Cervara, 19, 38121 Trento TN
                                 </a>
                             </div>
                             <div>
                                 <h1 className='text-xl md:text-2xl mb-3'>Recapiti</h1>
                                 <p>
                                     Email: &nbsp;
-                                    <a href="mailto:31m2ofbeauty@gmail.com">31m2ofbeauty@gmail.com</a> <br />
-                                </p>
+                                        <a href="mailto:lacasadioresteasilo@gmail.com">lacasadioresteasilo@gmail.com</a> <br />
+                                    </p>
                                 <p>
                                     Cell: &nbsp;
-                                    <a href="tel:0041763083244">0041 76 308 32 44</a>
+                                    <a href="tel:00393381457299">+39 33 81 45 72 99</a>
                                 </p>
                                 <p>
                                     Whatsapp: &nbsp;
-                                    <a href="https://wa.me/41763083244" target='_blank'>+41 76 308 32 44</a>
+                                    <a href="https://wa.me/41763083244" target='_blank'>+39 33 81 45 72 99</a>
                                 </p>
                             </div>
                         </div>

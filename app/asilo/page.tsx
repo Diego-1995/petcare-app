@@ -1,19 +1,13 @@
 import Image from "next/image";
+import HeaderDetail from "../shared/ui/header-detail";
 
 
 export default function AsiloPage() {
     return (
       <>
-       <header className="p-6 md:p-20 text-center">
-          <h1 className="text-2xl mb-4 md:text-5xl">
-              <span className="text-accent font-bold">Asilo</span>
-          </h1>
-          <p className="text-base md:text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          </p>
-        </header>
+        <HeaderDetail title="Asilo" subtitle="Lorem Ipsum"/>
         <main className="mb-20">
-          <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl">
+          <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground ">
                   {/* Contenitore immagine con relative e altezza fissa */}
                   <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
                     <Image 
@@ -40,7 +34,7 @@ export default function AsiloPage() {
                     Se ne vuoi sapere di più, vieni a trovarci!
                     </p>
                   </div>
-                </div>
+              </div>
         </main>
       </>
      

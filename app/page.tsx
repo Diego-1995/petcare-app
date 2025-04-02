@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="flex flex-col lg:flex-row m-6 lg:m-20 bg-primary rounded-2xl">
-          {/* Contenitore immagine con relative e altezza fissa */}
+      <div className="relative overflow-hidden flex flex-col lg:flex-row m-6 lg:m-20 bg-primary rounded-2xl border-2 border-primary-foreground ">
+      {/* Contenitore immagine con relative e altezza fissa */}
           <div className="w-full lg:w-1/2 relative h-80 lg:h-[1000px]"> 
             <Image 
                 src="/images/home.jpg" 
