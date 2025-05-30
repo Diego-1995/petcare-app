@@ -17,7 +17,9 @@ export default function ContactsPage() {
                     <div>
                         <div>
                             <div className='mb-3'>
-                                <h1 className='text-xl md:text-2xl mb-3'>Orari</h1>
+                                <h1 className='text-xl md:text-2xl mb-3'>
+                                    Orari (Disponibile anche fuori orario su richiesta!)
+                                </h1>
                                 <p className='text-base'>
                                     <strong>
                                         Lun - Ven: 08:00 - 17:30
@@ -33,6 +35,7 @@ export default function ContactsPage() {
                                         Dom: Chiuso
                                     </strong>
                                 </p>
+                                 
                             </div>
                             <div className='mb-3'>
                                 <h1 className='text-xl md:text-2xl mb-3'>Indirizzo</h1>

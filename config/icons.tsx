@@ -1,5 +1,5 @@
 import { IconSvgProps } from "@/types";
-import { Contact, Footprints, Hand, Home, Ribbon, Store } from "lucide-react";
+import { Contact, Cookie, Footprints, Hand, Home, PawPrint, Scissors, Store } from "lucide-react";
 import { JSX } from "react";
 
 export const MenuIcon: React.FC<IconSvgProps> = (props) => {
@@ -27,8 +27,9 @@ export const MenuIcon: React.FC<IconSvgProps> = (props) => {
 export const iconMenuMap: { [key: string]: JSX.Element } = {
   home: <Home />,
   contact: <Contact />,
-  bandage: <Ribbon />,
-  beautyShop: <Store />,
+  pawPrint: <PawPrint />,
+  scissors: <Scissors />,
+  food: <Cookie />
 };
 
 export const iconSpecializationMap: { [key: string]: JSX.Element } = {

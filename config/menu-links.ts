@@ -4,22 +4,22 @@ export const menuLinks: Array<{
   text: string;
 }> = [
   {
-    icon: "bandage",
+    icon: "home",
     text: "Chi siamo",
     href: "/",
   },
   {
-    icon: "bandage",
+    icon: "pawPrint",
     text: "Asilo",
     href: "/asilo",
   },
   {
-    icon: "bandage",
+    icon: "scissors",
     text: "Toilettattura",
     href: "/toilettattura",
   },
   {
-    icon: "bandage",
+    icon: "food",
     text: "Pet Food",
     href: "/pet-food",
   },

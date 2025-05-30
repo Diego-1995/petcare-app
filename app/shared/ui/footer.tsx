@@ -44,6 +44,9 @@ export default function Footer() {
                       <p>
                         <strong className="text-foreground">Dom: Chiuso</strong>
                       </p>
+                      <p>
+                        <strong className="text-foreground">Disponibile anche fuori orario su richiesta!</strong>
+                      </p>
                     </div>
                     <div>
                       <h1 className="text-xl font-bold mb-3 text-foreground">Contatti</h1>
@@ -84,7 +87,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="py-3 text-right">
-              <Link href="/cookie-policy text-foreground">
+              <Link href="/cookie-policy" className="text-foreground">
                 Privacy & Cookie Policy
               </Link>
             </div>

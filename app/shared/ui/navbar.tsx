@@ -16,14 +16,15 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="h-20 md:h-28 flex items-center justify-between bg-white pr-6 shadow-[0_2px_4px_var(--color-accent)]">
+    <nav className="h-20 md:h-28 flex items-center justify-between bg-white px-6 shadow-[0_2px_4px_var(--color-primary)]">
       <div className="flex items-center h-full">
         <Link href="/" className="block relative" prefetch={false}>
           <Image 
             src="/images/logo.png" 
             alt="logo"
-            fill
-            
+            width={80}
+            height={80}
+                  className="w-20 h-20 sm:w-24 sm:h-24" // Aggiungi classi responsive
           />
         </Link>
       </div>
@@ -42,13 +43,12 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="right">
           <SheetTitle>
-            {/* <Image 
+            <Image 
               src="/images/logo.png" 
               alt="Logo" 
               width={80}
               height={80}
-              className="ml-[-15px]"
-            /> */}
+            />
           </SheetTitle>
           <div className="grid gap-">
             {menuLinks.map((item, index) => (
@@ -72,10 +72,10 @@ export default function Navbar() {
       <NavigationMenu className="hidden lg:flex w-2/3 justify-center">
         <NavigationMenuList className="flex items-center justify-around gap-20 px-12">
           {menuLinks.map((item) => (
-            <NavigationMenuLink asChild key={item.href} className={`${pathname === item.href ? 'border-accent' : 'border-transparent'} text-lg text-foreground border-b-4`}>
+            <NavigationMenuLink asChild key={item.href} className={`${pathname === item.href ? 'border-primary' : 'border-transparent'} text-lg text-foreground border-b-4`}>
               <Link href={item.href} prefetch={false} className="relative group">
                 {item.text}
-                <span className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-[4px] bg-accent transition-all duration-300 ease-in-out group-hover:w-full group-hover:translate-x-[-50%]"></span>
+                <span className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-[4px] bg-primary transition-all duration-300 ease-in-out group-hover:w-full group-hover:translate-x-[-50%]"></span>
               </Link>
             </NavigationMenuLink>
           ))}

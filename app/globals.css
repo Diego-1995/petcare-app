@@ -40,7 +40,7 @@ h6 {
 
 /* Stile per i bottoni */
 .material-button {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary);
   color: var(--color-foreground);
   border: none;
   border-radius: 24px;
