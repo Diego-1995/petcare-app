@@ -3,13 +3,13 @@ import HeaderDetail from "../shared/ui/header-detail"
 export default function ToilettaturaPage() {
     return (
       <>
-        <HeaderDetail title="Toilettatura" subtitle="lorem ipsum"/>
+        <HeaderDetail title="Toelettatura" subtitle="lorem ipsum"/>
         <main className="mb-20">
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground">
             {/* Contenitore immagine con relative e altezza fissa */}
             <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
               <video
-                      className="w-full h-60 md:h-[calc(100vh-136px)] object-cover"
+                      className="w-full h-60 md:h-[calc(100vh-136px)] object-cover rounded-tr-2xl rounded-tl-2xl lg:rounded-tr-none lg:rounded-l-2xl"
                       autoPlay
                       loop
                       muted
@@ -31,18 +31,18 @@ export default function ToilettaturaPage() {
     
             {/* Testo accanto all'immagine */}
             <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
-              <h1 className="text-2xl lg:text-5xl uppercase mb-12">Chi Siamo</h1>
+              <h1 className="text-2xl lg:text-5xl uppercase mb-12">
+                Coccole&Benessere
+              </h1>
               <p className="text-xl lg:text-2xl mb-6">
-                Ciao io sono Erminia, quando avevo 18 anni mi sono trasferita a Trento da sola e il mio unico compagno di vita era Oreste, il mio coniglio. <br />
+                Che si tratti di un pelo riccio, liscio o ondulato, di grandi o di piccini, tutti i cani hanno bisogno di cura.
               </p>
               <p className="text-xl lg:text-2xl mb-6">
-                Abbiamo vissuto tantissime avventure insieme finché un giorno Oreste si è ammalato e, nonostante tutti i miei sforzi, non ce l&apos;ha fatta.
-              </p>
-              <p className="text-xl lg:text-2xl mb-6">
-                Quel dolore mi ha cambiato e ho deciso di dedicare la mia vita interamente agli animali. Così nasce &quot;La Casa di Oreste&quot;, un grande progetto che inizia qui. <br />
+                La toelettatura non è solo un fatto estetico, la base è il benessere del cane. 
+                Per questo, qualsiasi sia il trattamento da eseguire, parto dal rispetto dell&apos;animale tenendo sempre conto delle sue caratteristiche e necessità.
               </p>
               <p className="text-xl lg:text-2xl">
-              Se ne vuoi sapere di più, vieni a trovarci!
+                Poiché ci teniamo al benessere di tutti gli animali, nel nostro salone utilizziamo solo prodotti di qualità non testati su animali, vegani e con materie prime di origine naturale. 
               </p>
             </div>
          </div>

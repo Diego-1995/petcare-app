@@ -15,8 +15,8 @@ export const menuLinks: Array<{
   },
   {
     icon: "scissors",
-    text: "Toilettattura",
-    href: "/toilettattura",
+    text: "Toelettattura",
+    href: "/toelettattura",
   },
   {
     icon: "food",

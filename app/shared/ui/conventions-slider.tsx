@@ -11,7 +11,7 @@ export default function ConventionsSlider() {
     return (
         <section className="w-full mx-auto mb-20">
             <h2 className="text-3xl text-center font-bold mb-20">
-                Le nostre convenzioni
+                I nostri partner
             </h2>
             <Swiper
                 spaceBetween={16}

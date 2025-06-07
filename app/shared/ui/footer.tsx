@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <footer className="bg-primary px-6 shadow-[0_2px_4px_var(--color-accent)]">
+        <footer className="bg-primary px-6">
            
             <div className=" border-b-1 border-accent-foreground border-opacity-20">
               <div className="flex flex-col md:flex-row justify-between text-black">
@@ -29,8 +29,8 @@ export default function Footer() {
                     <div>
                       <h1 className="text-xl font-bold mb-3 text-foreground" >Indirizzo</h1>
                       <a className='text-sm md:text-base' 
-                        href="https://maps.app.goo.gl/DGBQ4a3fWjwHBJXX6" target='_blank' rel='noopener'>
-                            Via della Cervara, 19, 38121 Trento TN 
+                        href="https://maps.app.goo.gl/NxZATLUYb3rVgten9" target='_blank' rel='noopener'>
+                            Via della Cervara, 19, 38121 - Trento (TN) 
                       </a>
                     </div>
                     <div>
@@ -45,7 +45,10 @@ export default function Footer() {
                         <strong className="text-foreground">Dom: Chiuso</strong>
                       </p>
                       <p>
-                        <strong className="text-foreground">Disponibile anche fuori orario su richiesta!</strong>
+                        <strong className="text-foreground">
+                          Appuntamenti solo su prenotazione <br />
+                          Disponibili servizi fuori orario su richiesta!
+                        </strong>
                       </p>
                     </div>
                     <div>
@@ -60,13 +63,13 @@ export default function Footer() {
                         <strong className="text-foreground">
                           Cell: &nbsp; 
                         </strong>
-                        <a href="tel:00393381457299">+39 33 81 45 72 99</a>
+                        <a href="tel:00393381457299">+39 338 14 57 299</a>
                       </p>
                       <p className="text-base">
                         <strong className="text-foreground">
                         Whatsapp: &nbsp; 
                         </strong>
-                        <a href="https://wa.me/41763083244" target='_blank'>+39 33 81 45 72 99</a>
+                        <a href="https://wa.me/41763083244" target='_blank'>+39 338 14 57 299</a>
                       </p>
                     </div>
                     <div >

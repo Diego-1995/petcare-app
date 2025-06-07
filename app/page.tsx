@@ -20,14 +20,11 @@ export default function Home() {
           <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
             <h1 className="text-2xl lg:text-5xl uppercase mb-12">Chi Siamo</h1>
             <p className="text-xl lg:text-2xl mb-6">
-              Ciao io sono Erminia, quando avevo 18 anni mi sono trasferita a Trento da sola e il mio unico compagno di vita era Oreste, il mio coniglio. <br />
-            </p>
+              Mi chiamo Erminia e la mia fedele compagna di vita è Talia, siamo le fondatrici de La Casa di Oreste. Una struttura che comprende un asilo/pensione, una toelettatura e un food shop per cani.            </p>
             <p className="text-xl lg:text-2xl mb-6">
-              Abbiamo vissuto tantissime avventure insieme finché un giorno Oreste si è ammalato e, nonostante tutti i miei sforzi, non ce l&apos;ha fatta.
-            </p>
+              L&apos;amore per gli animali mi accompagna da tutta la vita, sono una volontaria da quando avevo 18 anni e sto ultimando il mio percorso da addestratrice cinofila.            </p>
             <p className="text-xl lg:text-2xl mb-6">
-              Quel dolore mi ha cambiato e ho deciso di dedicare la mia vita interamente agli animali. Così nasce &quot;La Casa di Oreste&quot;, un grande progetto che inizia qui. <br />
-            </p>
+A marzo del 2025 sono riuscita a dare forma al mio progetto. La Casa di Oreste è il primo passo per la realizzazione di un sogno d&apos;amore che inizia qui nella nostra struttura.             </p>
             <p className="text-xl lg:text-2xl">
             Se ne vuoi sapere di più, vieni a trovarci!
             </p>

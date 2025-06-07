@@ -18,8 +18,14 @@ export default function ContactsPage() {
                         <div>
                             <div className='mb-3'>
                                 <h1 className='text-xl md:text-2xl mb-3'>
-                                    Orari (Disponibile anche fuori orario su richiesta!)
+                                    Orari
                                 </h1>
+                                <p className='mb-3'>
+                                    <strong>
+                                        Appuntamenti solo su prenotazione <br />
+                                        Disponibili servizi fuori orario su richiesta!
+                                    </strong>
+                                </p>
                                 <p className='text-base'>
                                     <strong>
                                         Lun - Ven: 08:00 - 17:30
@@ -40,8 +46,8 @@ export default function ContactsPage() {
                             <div className='mb-3'>
                                 <h1 className='text-xl md:text-2xl mb-3'>Indirizzo</h1>
                                 <a className='text-sm md:text-base' 
-                                href="https://maps.app.goo.gl/DGBQ4a3fWjwHBJXX6" target='_blank' rel='noopener'>
-                                    Via della Cervara, 19, 38121 Trento TN
+                                href="https://maps.app.goo.gl/NxZATLUYb3rVgten9" target='_blank' rel='noopener'>
+                                    Via della Cervara, 19, 38121 - Trento (TN)
                                 </a>
                             </div>
                             <div>
@@ -52,11 +58,11 @@ export default function ContactsPage() {
                                     </p>
                                 <p>
                                     Cell: &nbsp;
-                                    <a href="tel:00393381457299">+39 33 81 45 72 99</a>
+                                    <a href="tel:00393381457299">+39 338 14 57 299</a>
                                 </p>
                                 <p>
                                     Whatsapp: &nbsp;
-                                    <a href="https://wa.me/41763083244" target='_blank'>+39 33 81 45 72 99</a>
+                                    <a href="https://wa.me/41763083244" target='_blank'>+39 338 14 57 299</a>
                                 </p>
                             </div>
                         </div>
