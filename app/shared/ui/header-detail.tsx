@@ -1,4 +1,4 @@
-export default function HeaderDetail({title, subtitle}: { title: string; subtitle: string }) {
+export default function HeaderDetail({title, subtitle}: { title: string; subtitle?: string }) {
     return (
         <header className="p-6 md:p-20 text-center">
           <h1 className="text-2xl mb-4 md:text-5xl">
@@ -6,9 +6,11 @@ export default function HeaderDetail({title, subtitle}: { title: string; subtitl
                 {title}
               </span>
           </h1>
+        {subtitle && (
           <p className="text-base md:text-2xl">
-              {subtitle} 
+            {subtitle}
           </p>
+        )}
         </header>
     )
 }

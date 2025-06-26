@@ -1,9 +1,10 @@
+import ConventionsSlider from "../shared/ui/conventions-slider";
 import HeaderDetail from "../shared/ui/header-detail"
 
 export default function ToilettaturaPage() {
     return (
       <>
-        <HeaderDetail title="Toelettatura" subtitle="lorem ipsum"/>
+        <HeaderDetail title="Toelettatura"/>
         <main className="mb-20">
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground">
             {/* Contenitore immagine con relative e altezza fissa */}
@@ -47,6 +48,7 @@ export default function ToilettaturaPage() {
             </div>
          </div>
         </main>
+         <ConventionsSlider />
       </>
     );
   }
