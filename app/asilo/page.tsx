@@ -19,7 +19,7 @@ export default function AsiloPage() {
                   </div>
           
                   {/* Testo accanto all'immagine */}
-                  <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
+                  <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                     <h1 className="text-2xl lg:text-5xl uppercase mb-12">
                       Siamo qui per supportarti!
                     </h1>
@@ -33,7 +33,7 @@ export default function AsiloPage() {
                   </div>
             </div>
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
-            <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
+            <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                     <h1 className="text-2xl lg:text-5xl uppercase mb-12">
                       I nostri Servizi!
                     </h1>
@@ -66,7 +66,7 @@ export default function AsiloPage() {
                   </div>
           
                   {/* Testo accanto all'immagine */}
-                  <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
+                  <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                     <h1 className="text-2xl lg:text-5xl uppercase mb-12">
                       La loro seconda casa!
                     </h1>

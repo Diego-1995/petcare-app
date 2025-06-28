@@ -10,7 +10,7 @@ export const menuLinks: Array<{
   },
   {
     icon: "pawPrint",
-    text: "Asilo",
+    text: "Asilo e pensione",
     href: "/asilo",
   },
   {
