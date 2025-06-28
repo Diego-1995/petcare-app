@@ -8,32 +8,15 @@ export default function Footer() {
            
             <div className=" border-b-1 border-accent-foreground border-opacity-20">
               <div className="flex flex-col md:flex-row justify-between text-black">
-                {/* <div className="flex-3 hidden md:block">
-                  <Image 
-                  src="/images/logo.png" 
-                  alt="Logo" 
-                  width={300}
-                  height={100}
-                  />
-                </div>
-                <div className="flex-3 md:hidden">
-                  <Image 
-                  src="/images/logo.png" 
-                  alt="Logo" 
-                  width={100}
-                  height={100}
-                  className="m-auto"
-                  />
-                </div> */}
                 <div className="flex-1 flex flex-col md:flex-row text-center justify-around py-6 md:py-20 gap-6">
-                    <div>
+                    <div className="flex-1">
                       <h1 className="text-xl font-bold mb-3 text-foreground" >Indirizzo</h1>
                       <a className='text-sm md:text-base' 
                         href="https://maps.app.goo.gl/NxZATLUYb3rVgten9" target='_blank' rel='noopener'>
                             Via della Cervara, 19, 38121 - Trento (TN) 
                       </a>
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h1 className="text-xl font-bold mb-3 text-foreground">Orari</h1>
                       <p>
                         <strong className="text-foreground">Lun - Ven: 08:00 - 17:30</strong>
@@ -51,7 +34,7 @@ export default function Footer() {
                         </strong>
                       </p>
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h1 className="text-xl font-bold mb-3 text-foreground">Contatti</h1>
                       <p className="text-base">
                         <strong className="text-foreground">
@@ -72,7 +55,7 @@ export default function Footer() {
                         <a href="https://wa.me/41763083244" target='_blank'>+39 338 14 57 299</a>
                       </p>
                     </div>
-                    <div >
+                    <div className="flex-1">
                       <h1 className="text-xl font-bold mb-3 text-foreground">Social</h1>
                       <p className="flex justify-center gap-3">
                         <a href="https://www.instagram.com/lacasadioresteasilo/?api=postMessage%2F" target="_blank" rel="noopener noreferrer">

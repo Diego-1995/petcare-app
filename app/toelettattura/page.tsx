@@ -32,7 +32,7 @@ export default function ToilettaturaPage() {
             </div>
     
             {/* Testo accanto all'immagine */}
-            <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30">
+            <div className="w-full lg:w-1/2 p-6 lg:py-20 lg:px-30 text-justify">
               <h1 className="text-2xl lg:text-5xl uppercase mb-12">
                 Coccole&Benessere
               </h1>
