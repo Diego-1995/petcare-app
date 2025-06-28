@@ -1,23 +1,21 @@
 'use client';
 
-import { conventions } from "@/config/conventions";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function ConventionsSlider() {
+export default function ImagesSlider({title, images}: {title: string, images: {label: string; url: string}[]}) {
     return (
         <section className="w-full mx-auto mb-20">
             <h2 className="text-3xl text-center font-bold mb-20">
-                I nostri partner
+                {title}
             </h2>
             <Swiper
-                spaceBetween={16}
-                slidesPerView={6}  
+                slidesPerView={4}  
                 breakpoints={{
-                    1024: { slidesPerView: 6 },
+                    1024: { slidesPerView: 4 },
                     768: {slidesPerView: 3}
                 }}                allowTouchMove={false} // Disable manual sliding
                 autoplay={{
@@ -28,12 +26,12 @@ export default function ConventionsSlider() {
                 speed={3000} // Adjust speed for smoother scrolling
                 loop={true} // Enable looping for seamless scrolling                className="mt-8"
             >
-                {conventions.map((convention, idx) => (
+                {images.map((image, idx) => (
                     <SwiperSlide key={idx} className="flex justify-center">
-                        <div className="relative w-10 h-10 lg:w-30 lg:h-30"> 
+                        <div className="relative w-10 h-10 lg:w-60 lg:h-60"> 
                             <Image 
-                                src={convention.url} 
-                                alt={convention.label} 
+                                src={image.url} 
+                                alt={image.label} 
                                 fill
                                 className="object-cover object-center rounded-3xl"
                                 quality={100}

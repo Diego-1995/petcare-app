@@ -1,5 +1,6 @@
 import Image from "next/image";
-import ConventionsSlider from "./shared/ui/conventions-slider";
+import { conventions } from "@/config/conventions";
+import ImagesSlider from "./shared/ui/conventions-slider";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ A marzo del 2025 sono riuscita a dare forma al mio progetto. La Casa di Oreste Ã
             </p>
           </div>
         </div>
-        <ConventionsSlider />
+        <ImagesSlider title="I nostri partner" images={conventions} />
       </main>
     </>
   );
