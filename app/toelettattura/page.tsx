@@ -1,6 +1,5 @@
 import { petfoods } from "@/config/pet-foods";
 import ImagesSlider from "../shared/ui/conventions-slider";
-import ConventionsSlider from "../shared/ui/conventions-slider";
 import HeaderDetail from "../shared/ui/header-detail"
 
 export default function ToilettaturaPage() {
