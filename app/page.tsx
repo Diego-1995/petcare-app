@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { conventions } from "@/config/conventions";
-import ImagesSlider from "./shared/ui/conventions-slider";
 
 export default function Home() {
   return (
     <>
-      <main>
-      <div className="relative overflow-hidden flex flex-col lg:flex-row m-6 lg:m-20 bg-primary rounded-2xl border-2 border-primary-foreground ">
+      <main className="p-6 lg:p-20">
+      <div className="relative overflow-hidden flex flex-col lg:flex-row mb-6 lg:mb-20 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground ">
       {/* Contenitore immagine con relative e altezza fissa */}
           <div className="w-full lg:w-1/2 relative h-80 lg:h-[1000px]"> 
             <Image 
@@ -31,7 +30,31 @@ A marzo del 2025 sono riuscita a dare forma al mio progetto. La Casa di Oreste Ã
             </p>
           </div>
         </div>
-        <ImagesSlider title="I nostri partner" images={conventions} />
+        <h2 className="text-3xl text-center font-bold mb-5 lg:mb-20">
+                I notri partner
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          {conventions.map((convention, index) => (
+            <div
+              key={index}
+              className="relative flex justify-center flex-col items-center"
+            >
+              <div className="relative w-80 h-80">
+                <Image
+                  src="/images/placeholder.png"
+                  alt={convention.label}
+                  fill
+                  className="object-cover object-center rounded-3xl"
+                  quality={100}
+                />
+              </div>
+              <div className="pt-6">
+                <h3 className="text-base font-semibold">{convention.label}</h3>
+                {/* <p className="text-sm">{convention.description}</p> */}
+              </div>
+            </div>
+          ))}
+        </div>
       </main>
     </>
   );
