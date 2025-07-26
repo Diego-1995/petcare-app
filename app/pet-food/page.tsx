@@ -34,9 +34,9 @@ export default function PetFoodPage() {
                                    L&apos;amore di un cane però, è impagabile. <br />
                                    Non rinunciarci, siamo qui per te!
                                 </p>
-                                <a href="/files/catalog.pdf">
+                                <a href="/images/catalogo-crocchette.png">
                                   <Button className="material-button !bg-primary-foreground !p-6">
-                                    Vedi i prezzi
+                                    Scarica il catalogo
                                     <Download />
                                   </Button>
                                 </a>
@@ -53,9 +53,9 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6"> 
                                   Che si tratti di poche ore o di più giorni, puoi affidarti a noi per la cura del tuo cane mentre ottemperi ai tuoi impegni o ti regali un po&apos; di tempo per te. 
                                 </p>
-                                 <a href="/files/catalog.pdf">
+                                 <a href="/images/catalogo-umido.png">
                                   <Button className="material-button !bg-primary-foreground !p-6">
-                                    Vedi i prezzi
+                                    Scarica il catalogo
                                     <Download />
                                   </Button>
                                 </a>
@@ -94,7 +94,7 @@ export default function PetFoodPage() {
                                 </p>
                                  <a href="/files/catalog.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
-                                    Vedi i prezzi
+                                    Scarica il catalogo
                                     <Download />
                                   </Button>
                                 </a>
@@ -111,9 +111,9 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6"> 
                                   Che si tratti di poche ore o di più giorni, puoi affidarti a noi per la cura del tuo cane mentre ottemperi ai tuoi impegni o ti regali un po&apos; di tempo per te. 
                                 </p>
-                                 <a href="/files/catalog.pdf">
+                                 <a href="/images/catalogo-umido.png">
                                   <Button className="material-button !bg-primary-foreground !p-6">
-                                    Vedi i prezzi
+                                    Scarica il catalogo
                                     <Download />
                                   </Button>
                                 </a>

@@ -49,7 +49,7 @@ export default function ToilettaturaPage() {
             </div>
          </div>
         </main>
-         <ImagesSlider title="Da definire" images={petfoods} />
+         <ImagesSlider title="La nostra Gallery" images={petfoods} />
       </>
     );
   }

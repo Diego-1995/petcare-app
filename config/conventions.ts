@@ -1,18 +1,10 @@
-export const conventions: Array<{ label: string; url: string }> = [
+export const partners: Array<{ label: string; url: string }> = [
   {
-    label: "Lorem Ipsum",
-    url: "/images/coffee.jpg",
+    label: "Hotel America",
+    url: "/images/partner-hotel-america.jpg",
   },
   {
-    label: "Lorem Ipsum",
-    url: "/images/coffee.jpg",
-  },
-  {
-    label: "Lorem Ipsum",
-    url: "/images/coffee.jpg",
-  },
-  {
-    label: "Lorem Ipsum",
-    url: "/images/coffee.jpg",
+    label: "Muse",
+    url: "/images/partner-muse.jpg",
   },
 ];

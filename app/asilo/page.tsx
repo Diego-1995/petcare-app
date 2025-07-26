@@ -11,7 +11,7 @@ export default function AsiloPage() {
                   {/* Contenitore immagine con relative e altezza fissa */}
                   <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
                     <Image 
-                        src="/images/background_dog.jpg" 
+                        src="/images/asilo-1.jpg" 
                         alt="logo"
                         fill
                         className="object-cover rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl"
@@ -47,7 +47,7 @@ export default function AsiloPage() {
                   {/* Contenitore immagine con relative e altezza fissa */}
                   <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
                     <Image 
-                        src="/images/background_dog.jpg" 
+                        src="/images/asilo-2.jpg" 
                         alt="logo"
                         fill
                         className="object-cover rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl rounded-br-2xl"
@@ -58,7 +58,7 @@ export default function AsiloPage() {
                   {/* Contenitore immagine con relative e altezza fissa */}
                   <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
                     <Image 
-                        src="/images/background_dog.jpg" 
+                        src="/images/asilo-3.jpg" 
                         alt="logo"
                         fill
                         className="object-cover rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none lg:rounded-bl-2xl"

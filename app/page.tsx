@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { conventions } from "@/config/conventions";
+import { partners } from "@/config/conventions";
 
 export default function Home() {
   return (
@@ -34,22 +34,23 @@ export default function Home() {
           I notri partner
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {conventions.map((convention, index) => (
+          {partners.map((convention, index) => (
             <div
               key={index}
               className="relative flex justify-center flex-col items-center"
             >
-              <div className="relative w-80 h-80">
+              <div className="relative">
                 <Image
-                  src="/images/placeholder.png"
+                  src={convention.url}
                   alt={convention.label}
-                  fill
+                  width={200}
+                  height={200}
                   className="object-cover object-center rounded-3xl"
                   quality={100}
                 />
               </div>
               <div className="pt-6">
-                <h3 className="text-base font-semibold">{convention.label}</h3>
+                {/* <h3 className="text-base font-semibold">{convention.label}</h3> */}
                 {/* <p className="text-sm">{convention.description}</p> */}
               </div>
             </div>

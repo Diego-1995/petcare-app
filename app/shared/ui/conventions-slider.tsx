@@ -13,10 +13,9 @@ export default function ImagesSlider({title, images}: {title: string, images: {l
                 {title}
             </h2>
             <Swiper
-                slidesPerView={4}  
+                slidesPerView={1}  
                 breakpoints={{
-                    1024: { slidesPerView: 4 },
-                    768: {slidesPerView: 3}
+                    1024: { slidesPerView: 2 },
                 }}                allowTouchMove={false} // Disable manual sliding
                 autoplay={{
                   delay: 1, // Minimal delay for continuous scrolling
@@ -28,7 +27,7 @@ export default function ImagesSlider({title, images}: {title: string, images: {l
             >
                 {images.map((image, idx) => (
                     <SwiperSlide key={idx} className="flex justify-center">
-                        <div className="relative w-10 h-10 lg:w-60 lg:h-60"> 
+                        <div className="relative w-52 h-52 m-auto"> 
                             <Image 
                                 src={image.url} 
                                 alt={image.label} 
