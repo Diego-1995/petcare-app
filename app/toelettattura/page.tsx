@@ -1,5 +1,5 @@
-import { petfoods } from "@/config/pet-foods";
-import ImagesSlider from "../shared/ui/conventions-slider";
+import { petGroomingGallery } from "@/config/pet-grooming-gallery";
+import MediaSlider from "../shared/ui/media-slider";
 import HeaderDetail from "../shared/ui/header-detail"
 
 export default function ToilettaturaPage() {
@@ -49,7 +49,7 @@ export default function ToilettaturaPage() {
             </div>
          </div>
         </main>
-         <ImagesSlider title="La nostra Gallery" media={petfoods} />
+         <MediaSlider title="La nostra Gallery" media={petGroomingGallery} />
       </>
     );
   }

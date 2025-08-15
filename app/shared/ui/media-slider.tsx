@@ -6,7 +6,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function ImagesSlider({title, media}: {title: string, media: {label: string; url: string, type: 'images' | 'video'}[]}) {
+export default function MediaSlider({title, media}: {title: string, media: {label: string; url: string, type: 'images' | 'video'}[]}) {
     return (
         <section className="w-full mx-auto mb-20">
             <h2 className="text-3xl text-center font-bold mb-20">
@@ -42,7 +42,7 @@ export default function ImagesSlider({title, media}: {title: string, media: {lab
                             muted
                             playsInline
                             preload="auto"
-                            className="rounded-3xl"
+                            className="rounded-3xl w-full h-full object-cover"
                             >
                                 <source
                                     src={media.url}

@@ -1,9 +1,9 @@
-import { petfoods } from '@/config/pet-foods';
-import ImagesSlider from '../shared/ui/conventions-slider';
+import MediaSlider from '../shared/ui/media-slider';
 import HeaderDetail from '../shared/ui/header-detail';
 import Image from "next/image";
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
+import { petFoodGallery } from '@/config/pet-food-gallery';
 
 
 export default function PetFoodPage() {
@@ -25,10 +25,10 @@ export default function PetFoodPage() {
                               {/* Testo accanto all'immagine */}
                               <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                                 <h1 className="text-2xl lg:text-5xl uppercase mb-12">
-                                  Siamo qui per supportarti!
+                                  Il benessere inizia a tavola (o nella ciotola!)
                                 </h1>
                                 <p className="text-xl lg:text-2xl mb-6">
-                                   Coniugare vita lavorativa e vita privata è difficile, soprattutto con i ritmi sempre più incalzanti che ci richiede la routine.
+                                   Un&apos;alimentazione sana è importante per tutti. La Casa di Oreste si occupa del benessere del tuo cane a 360 gradi e, dunque, non potevamo lasciare da parte la pappa!
                                 </p>
                                 <p className="text-xl lg:text-2xl mb-6">
                                    L&apos;amore di un cane però, è impagabile. <br />
@@ -45,13 +45,20 @@ export default function PetFoodPage() {
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
                         <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                                 <h1 className="text-2xl lg:text-5xl uppercase mb-12">
-                                  I nostri Servizi!
+                                  Il secco
                                 </h1>
                                 <p className="text-xl lg:text-2xl mb-6">
-                                   La Casa di Oreste offre sia un servizio di asilo diurno, che una pensione casalinga. 
+                                   La Casa di Oreste propone, per le crocchette, la linea Imperial Food.
                                 </p>
                                 <p className="text-xl lg:text-2xl mb-6"> 
-                                  Che si tratti di poche ore o di più giorni, puoi affidarti a noi per la cura del tuo cane mentre ottemperi ai tuoi impegni o ti regali un po&apos; di tempo per te. 
+                                  Un marchio 100% made in Italy, da un&apos;azienda con esperienza trentennale nella produzione di cibo per cani. 
+                                </p>
+                                <p className="text-xl lg:text-2xl mb-6">
+                                  Le specialità della casa sono: Energy, OceanS, StarFish e First Class. Ogni tipologia di crocchetta è pensata per supportare il fabbisogno nutritivo del tuo cane in modo equilibrato e gustoso, ponendo la massima attenzione alle sue esigenze. 
+                                  Intolleranze alimentari, controllo del peso, cura del pelo... ce n&apos;è per tutti i gusti. 
+                                </p>
+                                <p className="text-xl lg:text-2xl mb-6">
+                                  E occhio al prezzo! Da noi la qualità costa meno del cibo industriale da banco, provare per credere!
                                 </p>
                                  <a href="/images/catalogo-umido.png">
                                   <Button className="material-button !bg-primary-foreground !p-6">
@@ -84,13 +91,17 @@ export default function PetFoodPage() {
                               {/* Testo accanto all'immagine */}
                               <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                                 <h1 className="text-2xl lg:text-5xl uppercase mb-12">
-                                  La loro seconda casa!
+                                  L&apos;umido
                                 </h1>
                                 <p className="text-xl lg:text-2xl mb-6">
-                                   La nostra struttura si sviluppa su due piani open space, uno spazio chiuso dedicato alla toelettatura e un poggiolo esterno per l&apos;estate.
+                                  Per i nostri umidi la scelta è chiara: Pet Alpin!
                                 </p>
                                 <p className="text-xl lg:text-2xl mb-6">
-                                  Per nostra scelta non ci sono recinti, né gabbie: La Casa di Oreste è un&apos;estensione dell&apos;ambiente domestico, in cui vogliamo ricreare l&apos;atmosfera felice, serena e familiare che fa sentire il nostro compagno sereno e al sicuro.                     
+                                  100% made in Italy e a km0.
+                                  Prodotto in Alto Adige con materie prime del territorio da un team di specialisti del benessere animale, tra cui un veterinario e un macellaio, per garantire la qualità del prodotto sotto tutti i punti di vista.                                 
+                                </p>
+                                <p className="text-xl lg:text-2xl mb-6">
+                                  In diversi gusti e misure a un prezzo concorrenziale rispetto agli equivalenti industriali &quot;di qualità&quot;. Vi invitiamo ad aprire un barattolino e annusarlo per capire di cosa stiamo parlando!
                                 </p>
                                  <a href="/files/catalog.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
@@ -103,13 +114,13 @@ export default function PetFoodPage() {
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
                         <div className="w-full lg:w-1/2 p-6 xl:py-20 xl:px-30">
                                 <h1 className="text-2xl lg:text-5xl uppercase mb-12">
-                                  I nostri Servizi!
+                                  La nostra vision
                                 </h1>
                                 <p className="text-xl lg:text-2xl mb-6">
-                                   La Casa di Oreste offre sia un servizio di asilo diurno, che una pensione casalinga. 
+                                  Per noi è fondamentale supportare realtà che siano eticamente affini ai nostri valori. 
                                 </p>
-                                <p className="text-xl lg:text-2xl mb-6"> 
-                                  Che si tratti di poche ore o di più giorni, puoi affidarti a noi per la cura del tuo cane mentre ottemperi ai tuoi impegni o ti regali un po&apos; di tempo per te. 
+                                <p className="text-xl lg:text-2xl mb-6">
+                                  Per questo il cibo che vendiamo e 100% made in Italy, da aziende attente all&apos;ambiente e viene prodotto da persone che conosciamo personalmente o con le quali siamo in contatto diretto e che abbracciano il nostro stesso modo di pensare quando si tratta del benessere dei nostri compagni di vita.                                 
                                 </p>
                                  <a href="/images/catalogo-umido.png">
                                   <Button className="material-button !bg-primary-foreground !p-6">
@@ -129,7 +140,7 @@ export default function PetFoodPage() {
                               </div>
                       </div>
              </main>
-            <ImagesSlider title="Da definire" images={petfoods} />
+            <MediaSlider title="La nostra gallery" media={petFoodGallery} />
         </>
     )
 }
