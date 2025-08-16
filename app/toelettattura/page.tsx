@@ -19,12 +19,12 @@ export default function ToilettaturaPage() {
                       preload="auto"
                   >
                       <source
-                          src="/video/toeletta_home.mp4"
+                          src="https://pub-69c0e5e8dde9464c85569e1b4564f48a.r2.dev/toeletta_home.mp4"
                           type="video/mp4"
                           media="(min-width: 768px)"
                       />
                       <source
-                          src="/video/toeletta_home.mp4"
+                          src="https://pub-69c0e5e8dde9464c85569e1b4564f48a.r2.dev/toeletta_home.mp4"
                           type="video/mp4"
                           media="(max-width: 767px)"
                       />

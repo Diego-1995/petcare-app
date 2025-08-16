@@ -11,7 +11,7 @@ export const petGroomingGallery: Array<{ label: string; url: string, type: 'imag
   },
   {
     label: "pet-toeletta",
-    url: "/video/toeletta_clips.mp4",
+    url: "https://pub-69c0e5e8dde9464c85569e1b4564f48a.r2.dev/toeletta_clips.mp4",
     type: 'video'
   },
   {
