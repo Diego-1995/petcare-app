@@ -19,12 +19,12 @@ export default function ToilettaturaPage() {
                       preload="auto"
                   >
                       <source
-                          src="/video/toeletta_clips.mp4"
+                          src="/video/toeletta_home.mp4"
                           type="video/mp4"
                           media="(min-width: 768px)"
                       />
                       <source
-                          src="/video/toeletta_clips.mp4"
+                          src="/video/toeletta_home.mp4"
                           type="video/mp4"
                           media="(max-width: 767px)"
                       />
@@ -49,7 +49,7 @@ export default function ToilettaturaPage() {
             </div>
          </div>
         </main>
-         <ImagesSlider title="La nostra Gallery" images={petfoods} />
+         <ImagesSlider title="La nostra Gallery" media={petfoods} />
       </>
     );
   }
