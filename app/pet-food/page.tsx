@@ -34,7 +34,7 @@ export default function PetFoodPage() {
                                    L&apos;amore di un cane però, è impagabile. <br />
                                    Non rinunciarci, siamo qui per te!
                                 </p>
-                                <a href="/images/catalogo-crocchette.png">
+                                <a href="/files/catalogo-crocchette.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
                                     Scarica il catalogo
                                     <Download />
@@ -60,7 +60,7 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6">
                                   E occhio al prezzo! Da noi la qualità costa meno del cibo industriale da banco, provare per credere!
                                 </p>
-                                 <a href="/images/catalogo-umido.png">
+                                 <a href="/files/catalogo-crocchette.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
                                     Scarica il catalogo
                                     <Download />
@@ -103,7 +103,7 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6">
                                   In diversi gusti e misure a un prezzo concorrenziale rispetto agli equivalenti industriali &quot;di qualità&quot;. Vi invitiamo ad aprire un barattolino e annusarlo per capire di cosa stiamo parlando!
                                 </p>
-                                 <a href="/files/catalog.pdf">
+                                 <a href="/files/catalogo-umido.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
                                     Scarica il catalogo
                                     <Download />
@@ -122,7 +122,7 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6">
                                   Per questo il cibo che vendiamo e 100% made in Italy, da aziende attente all&apos;ambiente e viene prodotto da persone che conosciamo personalmente o con le quali siamo in contatto diretto e che abbracciano il nostro stesso modo di pensare quando si tratta del benessere dei nostri compagni di vita.                                 
                                 </p>
-                                 <a href="/images/catalogo-umido.png">
+                                 <a href="/files/catalogo-crocchette.pdf">
                                   <Button className="material-button !bg-primary-foreground !p-6">
                                     Scarica il catalogo
                                     <Download />
