@@ -40,18 +40,16 @@ export default function Home() {
               className="relative flex justify-center flex-col items-center"
             >
               <div className="relative">
-                <Image
-                  src={convention.url}
-                  alt={convention.label}
-                  width={200}
-                  height={200}
-                  className="object-cover object-center rounded-3xl"
-                  quality={100}
-                />
-              </div>
-              <div className="pt-6">
-                {/* <h3 className="text-base font-semibold">{convention.label}</h3> */}
-                {/* <p className="text-sm">{convention.description}</p> */}
+                <a href={convention.extLink}>
+                  <Image
+                    src={convention.url}
+                    alt={convention.label}
+                    width={200}
+                    height={200}
+                    className="object-cover object-center rounded-3xl"
+                    quality={100}
+                  />
+                </a>
               </div>
             </div>
           ))}

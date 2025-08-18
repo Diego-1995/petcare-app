@@ -34,12 +34,6 @@ export default function PetFoodPage() {
                                    L&apos;amore di un cane però, è impagabile. <br />
                                    Non rinunciarci, siamo qui per te!
                                 </p>
-                                <a href="/files/catalogo-crocchette.pdf">
-                                  <Button className="material-button !bg-primary-foreground !p-6">
-                                    Scarica il catalogo
-                                    <Download />
-                                  </Button>
-                                </a>
                               </div>
                         </div>
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
@@ -122,12 +116,6 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6">
                                   Per questo il cibo che vendiamo e 100% made in Italy, da aziende attente all&apos;ambiente e viene prodotto da persone che conosciamo personalmente o con le quali siamo in contatto diretto e che abbracciano il nostro stesso modo di pensare quando si tratta del benessere dei nostri compagni di vita.                                 
                                 </p>
-                                 <a href="/files/catalogo-crocchette.pdf">
-                                  <Button className="material-button !bg-primary-foreground !p-6">
-                                    Scarica il catalogo
-                                    <Download />
-                                  </Button>
-                                </a>
                               </div>
                               {/* Contenitore immagine con relative e altezza fissa */}
                               <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
