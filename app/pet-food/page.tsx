@@ -127,7 +127,16 @@ export default function PetFoodPage() {
                                   />
                               </div>
                       </div>
+
              </main>
+            <div className='w-full flex justify-center content-center mb-20'>
+              <a href="https://wa.me/393381457299">
+                <Button className="material-button !p-6 lg:!py-12 lg:!px-16 lg:!text-2xl">
+                  Clicca qui per ordinare via WhatsApp!
+                  <Image src={'/images/whatsapp.svg'} width={30} height={30} alt="whatsapp" className='lg:ml-6' />
+                </Button>
+              </a>
+            </div>
             <MediaSlider title="La nostra gallery" media={petFoodGallery} />
         </>
     )
