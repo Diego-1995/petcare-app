@@ -1,9 +1,6 @@
-'use client';
-
-import dynamic from 'next/dynamic';
 import HeaderDetail from '../shared/ui/header-detail';
-
-const MapEmbed = dynamic(() => import('../shared/ui/map-embed'), { ssr: false });
+import { Metadata } from 'next';
+import MapEmbed from '../shared/ui/map-embed';
 
 export const metadata: Metadata = {
   title: "Contatti | La Casa di Oreste - Asilo e Pensione per Cani a Trento",
