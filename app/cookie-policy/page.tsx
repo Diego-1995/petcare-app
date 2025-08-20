@@ -1,4 +1,11 @@
+import { Metadata } from 'next';
 import Head from 'next/head';
+
+export const metadata: Metadata = {
+  title: "Cookie Policy | La Casa di Oreste",
+  description: "Consulta la nostra Cookie Policy per capire quali cookie utilizziamo e come proteggiamo la tua privacy sul sito La Casa di Oreste.",
+  keywords: ["cookie policy", "privacy", "La Casa di Oreste", "Trento", "informativa cookie"],
+};
 
 export default function CookiePolicyPage() {
     return (

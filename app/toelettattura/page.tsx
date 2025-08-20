@@ -1,6 +1,54 @@
 import { petGroomingGallery } from "@/config/pet-grooming-gallery";
 import MediaSlider from "../shared/ui/media-slider";
 import HeaderDetail from "../shared/ui/header-detail"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Toelettatura per Cani a Trento | La Casa di Oreste",
+  description:
+    "Toelettatura professionale per cani a Trento. Prodotti naturali, vegani e cruelty-free per il benessere e la cura del tuo amico a 4 zampe.",
+  keywords: [
+    "toelettatura cani Trento",
+    "lavaggio cani Trento",
+    "cura pelo cani Trento",
+    "taglio pelo cani Trento",
+    "toelettatura professionale Trento",
+    "La Casa di Oreste",
+  ],
+  openGraph: {
+    title: "Toelettatura per Cani a Trento | La Casa di Oreste",
+    description:
+      "Scopri la toelettatura di La Casa di Oreste a Trento: prodotti naturali, vegani e cruelty-free per il benessere dei cani.",
+    url: "https://www.lacasadioreste.it/toelettatura",
+    siteName: "La Casa di Oreste",
+    images: [
+      {
+        url: "https://pub-69c0e5e8dde9464c85569e1b4564f48a.r2.dev/toeletta_home.jpg", // puoi esportare un frame dal video come immagine SEO
+        width: 1200,
+        height: 630,
+        alt: "Toelettatura per cani a Trento - La Casa di Oreste",
+      },
+    ],
+    locale: "it_IT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Toelettatura per Cani a Trento | La Casa di Oreste",
+    description:
+      "Toelettatura con prodotti naturali, vegani e cruelty-free a Trento. Benessere e cura per tutti i cani.",
+    images: [
+      "https://pub-69c0e5e8dde9464c85569e1b4564f48a.r2.dev/toeletta_home.jpg",
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://www.lacasadioreste.it/toelettatura",
+  },
+};
 
 export default function ToilettaturaPage() {
     return (

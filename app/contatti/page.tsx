@@ -5,6 +5,52 @@ import HeaderDetail from '../shared/ui/header-detail';
 
 const MapEmbed = dynamic(() => import('../shared/ui/map-embed'), { ssr: false });
 
+export const metadata: Metadata = {
+  title: "Contatti | La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+  description:
+    "Scopri come raggiungere La Casa di Oreste a Trento. Orari, indirizzo, email e telefono per contattarci e prenotare i nostri servizi di asilo, pensione e toelettatura per cani.",
+  keywords: [
+    "contatti La Casa di Oreste",
+    "asilo cani Trento",
+    "pensione cani Trento",
+    "toelettatura cani Trento",
+    "indirizzo asilo cani Trento",
+    "telefono La Casa di Oreste",
+  ],
+  openGraph: {
+    title: "Contatti | La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+    description:
+      "Indirizzo, orari e recapiti per contattare La Casa di Oreste a Trento. Prenota il nostro asilo e pensione per cani.",
+    url: "https://www.lacasadioreste.it/contatti",
+    siteName: "La Casa di Oreste",
+    images: [
+      {
+        url: "/images/home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+      },
+    ],
+    locale: "it_IT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contatti | La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+    description:
+      "Scopri come contattare La Casa di Oreste: indirizzo, telefono, email e orari di apertura.",
+    images: ["/images/home.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://www.lacasadioreste.it/contatti",
+  },
+};
+
+
 export default function ContactsPage() {
     return (
         <>

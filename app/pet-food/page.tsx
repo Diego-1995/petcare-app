@@ -4,6 +4,39 @@ import Image from "next/image";
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
 import { petFoodGallery } from '@/config/pet-food-gallery';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Pet Food | La Casa di Oreste - Cibo per cani a Trento",
+  description:
+    "Pet Food a Trento - Crocchette Imperial Food e umido Pet Alpin. Cibo sano, naturale e 100% made in Italy per il benessere del tuo cane. Scopri cataloghi e ordina su WhatsApp!",
+  keywords: [
+    "pet food Trento",
+    "cibo per cani Trento",
+    "crocchette per cani Imperial Food",
+    "umido Pet Alpin",
+    "alimentazione naturale cani",
+    "negozio cibo cani Trento",
+    "La Casa di Oreste Trento"
+  ],
+  openGraph: {
+    title: "Pet Food | La Casa di Oreste",
+    description:
+      "Cibo sano e naturale per cani: crocchette Imperial Food e umido Pet Alpin. Qualità italiana a prezzi accessibili.",
+    url: "https://www.lacasadioreste.it/pet-food",
+    siteName: "La Casa di Oreste",
+    locale: "it_IT",
+    type: "website",
+    images: [
+      {
+        url: "https://www.lacasadioreste.it/images/imperial-food-all.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pet Food Trento - Imperial Food e Pet Alpin",
+      },
+    ],
+  },
+};
 
 
 export default function PetFoodPage() {

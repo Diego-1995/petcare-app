@@ -1,5 +1,52 @@
 import Image from "next/image";
 import { partners } from "@/config/conventions";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+  description:
+    "La Casa di Oreste offre asilo, pensione, toelettatura e food shop per cani a Trento. Uno spazio sicuro e accogliente dove il tuo amico a 4 zampe è di casa.",
+  keywords: [
+    "asilo per cani Trento",
+    "pensione cani Trento",
+    "toelettatura cani Trento",
+    "dog sitting Trento",
+    "La Casa di Oreste",
+    "cani Trento",
+    "dog food shop Trento",
+  ],
+  openGraph: {
+    title: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+    description:
+      "Struttura a Trento che offre asilo, pensione, toelettatura e food shop per cani. Vieni a conoscerci!",
+    url: "https://www.lacasadioreste.it", // ← cambia con il tuo dominio reale
+    siteName: "La Casa di Oreste",
+    images: [
+      {
+        url: "/images/home.jpg", // meglio se metti una immagine ottimizzata 1200x630
+        width: 1200,
+        height: 630,
+        alt: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+      },
+    ],
+    locale: "it_IT",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
+    description:
+      "Asilo, pensione, toelettatura e food shop per cani a Trento. Scopri La Casa di Oreste!",
+    images: ["/images/home.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://www.lacasadioreste.it",
+  },
+};
 
 export default function Home() {
   return (
