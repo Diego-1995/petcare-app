@@ -49,6 +49,13 @@ export default function MediaSlider({title, media}: {title: string, media: {labe
                                     media="(min-width: 768px)"
                                     className="rounded-3xl"
                                 />
+                                <track
+                                    src="/images/home.jpg"
+                                    kind="subtitles"
+                                    srcLang="it"
+                                    label="Italiano"
+                                />
+                                Il tuo browser non supporta il video
                             </video>}
                         </div>
                     </SwiperSlide>
