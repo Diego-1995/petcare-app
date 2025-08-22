@@ -72,10 +72,6 @@ export default function AsiloPage() {
                     <p className="text-xl lg:text-2xl mb-6">
                        Coniugare vita lavorativa e vita privata è difficile, soprattutto con i ritmi sempre più incalzanti che ci richiede la routine.
                     </p>
-                    <p className="text-xl lg:text-2xl mb-6">
-                       L&apos;amore di un cane però, è impagabile. <br />
-                       Non rinunciarci, siamo qui per te!
-                    </p>
                   </div>
             </div>
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
