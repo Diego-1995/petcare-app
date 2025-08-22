@@ -36,27 +36,19 @@ export default function MediaSlider({title, media}: {title: string, media: {labe
                                 className="object-cover object-center rounded-3xl"
                                 quality={100}
                             />}
-                           {media.type === 'video' && <video
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="rounded-3xl w-full h-full object-cover"
+                           {media.type === 'video' && (
+                            <video
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                poster="/images/home.jpg"
+                                className="rounded-3xl w-full h-full object-cover"
                             >
-                                <source
-                                    src={media.url}
-                                    type="video/mp4"
-                                    media="(min-width: 768px)"
-                                    className="rounded-3xl"
-                                />
-                                <track
-                                    src="/images/home.jpg"
-                                    kind="subtitles"
-                                    srcLang="it"
-                                    label="Italiano"
-                                />
+                                <source src={media.url} type="video/mp4" />
                                 Il tuo browser non supporta il video
-                            </video>}
+                            </video>
+                            )}
                         </div>
                     </SwiperSlide>
                 ))}
