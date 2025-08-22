@@ -62,17 +62,11 @@ export default function ToilettaturaPage() {
                       loop
                       muted
                       playsInline
-                      preload="auto"
                   >
                       <source
                           src="/video/toeletta_home.mp4"
                           type="video/mp4"
                           media="(min-width: 768px)"
-                      />
-                      <source
-                          src="/video/toeletta_home.mp4"
-                          type="video/mp4"
-                          media="(max-width: 767px)"
                       />
                 </video>
             </div>

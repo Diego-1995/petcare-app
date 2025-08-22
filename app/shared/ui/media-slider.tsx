@@ -41,19 +41,12 @@ export default function MediaSlider({title, media}: {title: string, media: {labe
                             loop
                             muted
                             playsInline
-                            preload="auto"
                             className="rounded-3xl w-full h-full object-cover"
                             >
                                 <source
                                     src={media.url}
                                     type="video/mp4"
                                     media="(min-width: 768px)"
-                                    className="rounded-3xl"
-                                />
-                                <source
-                                    src={media.url}
-                                    type="video/mp4"
-                                    media="(max-width: 767px)"
                                     className="rounded-3xl"
                                 />
                             </video>}
