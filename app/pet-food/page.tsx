@@ -46,7 +46,7 @@ export default function PetFoodPage() {
              <main className="mb-20">
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
                               {/* Contenitore immagine con relative e altezza fissa */}
-                              <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
+                              <div className="w-full lg:w-1/2 relative h-64"> 
                                 <Image 
                                     src="/images/imperial-food-all.jpg" 
                                     alt="logo"
@@ -95,7 +95,7 @@ export default function PetFoodPage() {
                                 </a>
                               </div>
                               {/* Contenitore immagine con relative e altezza fissa */}
-                              <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
+                              <div className="w-full lg:w-1/2 relative h-64"> 
                                 <Image 
                                     src="/images/imperial-food-first-class.jpg" 
                                     alt="logo"
@@ -106,7 +106,7 @@ export default function PetFoodPage() {
                         </div>
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
                               {/* Contenitore immagine con relative e altezza fissa */}
-                              <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
+                              <div className="w-full lg:w-1/2 relative h-64"> 
                                 <Image 
                                     src="/images/umido_petfood.jpg" 
                                     alt="logo"
@@ -151,7 +151,7 @@ export default function PetFoodPage() {
                                 </p>
                               </div>
                               {/* Contenitore immagine con relative e altezza fissa */}
-                              <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
+                              <div className="w-full lg:w-1/2 relative h-64"> 
                                 <Image 
                                     src="/images/imperial-food-starfish.jpg" 
                                     alt="logo"

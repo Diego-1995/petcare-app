@@ -54,21 +54,22 @@ export default function ToilettaturaPage() {
         <HeaderDetail title="Toelettatura"/>
         <main className="mb-20">
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground">
-            {/* Contenitore immagine con relative e altezza fissa */}
+            
             <div className="w-full lg:w-1/2 relative h-64 md:h-auto"> 
-              {/* <video
+              <video
                       className="w-full h-60 md:h-[calc(100vh-136px)] object-cover rounded-tr-2xl rounded-tl-2xl lg:rounded-tr-none lg:rounded-l-2xl"
                       autoPlay
                       loop
                       muted
                       playsInline
+                      poster="/images/home.jpg"
                   >
                       <source
                           src="/video/toeletta_home.mp4"
                           type="video/mp4"
-                          media="(min-width: 768px)"
                       />
-                </video> */}
+                      Il tuo browser non supporta il video
+              </video>
             </div>
     
             {/* Testo accanto all'immagine */}
