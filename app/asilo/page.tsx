@@ -55,7 +55,7 @@ export default function AsiloPage() {
         <main className="mb-20">
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
                   {/* Contenitore immagine con relative e altezza fissa */}
-                  <div className="w-full lg:w-1/2 relative h-64"> 
+                  <div className="w-full lg:w-1/2 relative h-64 lg:h-auto"> 
                     <Image 
                         src="/images/asilo-1.jpg" 
                         alt="logo"
@@ -87,7 +87,7 @@ export default function AsiloPage() {
                     </p>
                   </div>
                   {/* Contenitore immagine con relative e altezza fissa */}
-                  <div className="w-full lg:w-1/2 relative h-64"> 
+                  <div className="w-full lg:w-1/2 relative h-64 lg:h-auto"> 
                     <Image 
                         src="/images/asilo-2.jpg" 
                         alt="logo"
@@ -98,7 +98,7 @@ export default function AsiloPage() {
             </div>
           <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground ">
                   {/* Contenitore immagine con relative e altezza fissa */}
-                  <div className="w-full lg:w-1/2 relative h-64"> 
+                  <div className="w-full lg:w-1/2 relative h-64 lg:h-auto"> 
                     <Image 
                         src="/images/asilo-3.jpg" 
                         alt="logo"
