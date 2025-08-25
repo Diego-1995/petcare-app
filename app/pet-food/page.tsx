@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     title: "Pet Food | La Casa di Oreste",
     description:
       "Cibo sano e naturale per cani: crocchette Imperial Food e umido Pet Alpin. Qualità italiana a prezzi accessibili.",
-    url: "https://www.lacasadioreste.it/pet-food",
+    url: "https://www.lacasadioreste.com/pet-food",
     siteName: "La Casa di Oreste",
     locale: "it_IT",
     type: "website",
     images: [
       {
-        url: "https://www.lacasadioreste.it/images/imperial-food-all.jpg",
+        url: "https://www.lacasadioreste.com/images/imperial-food-all.jpg",
         width: 1200,
         height: 630,
         alt: "Pet Food Trento - Imperial Food e Pet Alpin",

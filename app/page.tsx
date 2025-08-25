@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "La Casa di Oreste - Asilo e Pensione per Cani a Trento",
     description:
       "Struttura a Trento che offre asilo, pensione, toelettatura e food shop per cani. Vieni a conoscerci!",
-    url: "https://www.lacasadioreste.it", // ← cambia con il tuo dominio reale
+    url: "https://www.lacasadioreste.com", 
     siteName: "La Casa di Oreste",
     images: [
       {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://www.lacasadioreste.it",
+    canonical: "https://www.lacasadioreste.com",
   },
 };
 

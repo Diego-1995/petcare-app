@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     title: "Toelettatura per Cani a Trento | La Casa di Oreste",
     description:
       "Scopri la toelettatura di La Casa di Oreste a Trento: prodotti naturali, vegani e cruelty-free per il benessere dei cani.",
-    url: "https://www.lacasadioreste.it/toelettatura",
+    url: "https://www.lacasadioreste.com/toelettatura",
     siteName: "La Casa di Oreste",
     images: [
       {
-        url: "https://www.lacasadioreste.it/video/toeletta_home.jpg", // snapshot/thumbnail del video salvato nella cartella video
+        url: "https://www.lacasadioreste.com/video/toeletta_home.jpg", // snapshot/thumbnail del video salvato nella cartella video
         width: 1200,
         height: 630,
         alt: "Toelettatura per cani a Trento - La Casa di Oreste",
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     title: "Toelettatura per Cani a Trento | La Casa di Oreste",
     description:
       "Toelettatura con prodotti naturali, vegani e cruelty-free a Trento. Benessere e cura per tutti i cani.",
-    images: ["https://www.lacasadioreste.it/video/toeletta_home.jpg"],
+    images: ["https://www.lacasadioreste.com/video/toeletta_home.jpg"],
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://www.lacasadioreste.it/toelettatura",
+    canonical: "https://www.lacasadioreste.com/toelettatura",
   },
 };
 

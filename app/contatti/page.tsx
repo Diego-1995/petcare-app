@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Contatti | La Casa di Oreste - Asilo e Pensione per Cani a Trento",
     description:
       "Indirizzo, orari e recapiti per contattare La Casa di Oreste a Trento. Prenota il nostro asilo e pensione per cani.",
-    url: "https://www.lacasadioreste.it/contatti",
+    url: "https://www.lacasadioreste.com/contatti",
     siteName: "La Casa di Oreste",
     images: [
       {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://www.lacasadioreste.it/contatti",
+    canonical: "https://www.lacasadioreste.com/contatti",
   },
 };
 
