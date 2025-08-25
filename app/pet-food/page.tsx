@@ -63,10 +63,6 @@ export default function PetFoodPage() {
                                 <p className="text-xl lg:text-2xl mb-6">
                                    Un&apos;alimentazione sana è importante per tutti. La Casa di Oreste si occupa del benessere del tuo cane a 360 gradi e, dunque, non potevamo lasciare da parte la pappa!
                                 </p>
-                                <p className="text-xl lg:text-2xl mb-6">
-                                   L&apos;amore di un cane però, è impagabile. <br />
-                                   Non rinunciarci, siamo qui per te!
-                                </p>
                               </div>
                         </div>
                       <div className="flex flex-col lg:flex-row mx-6 lg:mx-20 bg-primary rounded-2xl border-2 border-primary-foreground mb-5 lg:mb-20">
