@@ -105,7 +105,7 @@ export default function ContactsPage() {
                                 </p>
                                 <p>
                                     Whatsapp: &nbsp;
-                                    <a href="https://wa.me/41763083244" target='_blank'>+39 338 14 57 299</a>
+                                    <a href="https://wa.me/393381457299" target='_blank'>+39 338 14 57 299</a>
                                 </p>
                             </div>
                         </div>
