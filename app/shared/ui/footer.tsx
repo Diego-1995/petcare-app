@@ -54,6 +54,12 @@ export default function Footer() {
                         </strong>
                         <a href="https://wa.me/393381457299" target='_blank'>+39 338 14 57 299</a>
                       </p>
+                      <p className="text-base mt-5">
+                        <strong className="text-foreground">
+                        P.iva: &nbsp; 
+                        </strong>
+                        <span>01923920704</span>
+                      </p>
                     </div>
                     <div className="flex-1">
                       <h1 className="text-xl font-bold mb-3 text-foreground">Social</h1>
